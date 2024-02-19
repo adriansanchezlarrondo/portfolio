@@ -6,7 +6,7 @@ import './App.css'
 function App() {
   return (
     <>
-      <h1>Portfolio</h1>
+      <h1>Tailwind - Vite - React</h1>
       <div>
         <img src={tailwindLogo} className="logo" alt="Tailwind logo" />
         <img src={viteLogo} className="logo" alt="Vite logo" />
