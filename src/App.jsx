@@ -1,17 +1,37 @@
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import tailwindLogo from './assets/tailwind.svg'
-import './App.css'
+// import React from "react"
+import Header from './componentes/Header';
+import AboutMe from './componentes/AboutMe'
+import Contact from './componentes/Contact'
+import Footer from './componentes/Footer'
+import Home from './componentes/Home'
+import Projects from './componentes/Projects'
 
 function App() {
+ 
+
   return (
     <>
-      <h1>Tailwind - Vite - React</h1>
+    <div>
       <div>
-        <img src={tailwindLogo} className="logo" alt="Tailwind logo" />
-        <img src={viteLogo} className="logo" alt="Vite logo" />
-        <img src={reactLogo} className="logo react" alt="React logo" />
+        <Header />
       </div>
+      <div>
+        <Home />
+      </div>
+      <div>
+        <AboutMe />
+      </div>
+      <div>
+        <Projects />
+      </div>
+      <div>
+        <Contact />
+      </div>
+      <div>
+        <Footer />
+      </div>
+        
+    </div>
     </>
   )
 }
