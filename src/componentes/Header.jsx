@@ -3,7 +3,7 @@ import Avatar from "./Avatar"
 
 function Header(){
     return (
-        <div className="fixed top-0 w-full bg-white shadow-lg z-10">
+        <div className="header-fijado">
             <div className="flex justify-around py-4">
                 <Avatar />
                 <div className="flex justify-end w-3/4 mt-3 space-x-12">

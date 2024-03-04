@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    font-family: "Source Sans 3", sans-serif;
+  }
+  
 #home {
     background: linear-gradient(to right, rgba(245,245,245,0.8), rgba(245,245,245,0.8)),url(./src/assets/fondo.svg);
     background-position: center;
@@ -9,4 +13,14 @@
     min-height: 80rem;
     max-height: 120rem;
     position: relative;
+}
+
+.header-fijado {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff; 
+    z-index: 999; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
