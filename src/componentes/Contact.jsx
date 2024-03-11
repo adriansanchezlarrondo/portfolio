@@ -3,6 +3,9 @@
 function Contact(){
     return (
         <>
+            <div id="contact" className="container">
+
+            </div>
         </>
     )
 }

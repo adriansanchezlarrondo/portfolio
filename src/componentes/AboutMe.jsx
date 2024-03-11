@@ -3,6 +3,9 @@
 function AboutMe(){
     return (
         <>
+            <div id="about" className="container">
+
+            </div>
         </>
     )
 }

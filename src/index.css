@@ -11,8 +11,8 @@ body{
     background-position: center;
     height: 100vh;
     min-height: 80rem;
-    max-height: 120rem;
-    position: relative;
+    max-height: 100rem;
+    margin: 10px 0;
 }
 
 .header-fijado {
@@ -23,4 +23,18 @@ body{
     background-color: #fff; 
     z-index: 999; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(8px);
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateY(25px);
+        opacity: 0;
+    }
 }
