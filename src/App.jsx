@@ -1,10 +1,10 @@
 // import React from "react"
-import Header from './componentes/Header';
-import Home from './componentes/Home'
-import AboutMe from './componentes/AboutMe'
-import Projects from './componentes/Projects'
-import Contact from './componentes/Contact'
-import Footer from './componentes/Footer'
+import Header from './components/Header';
+import Home from './components/Home'
+import AboutMe from './components/AboutMe'
+import Projects from './components/Projects'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
  
