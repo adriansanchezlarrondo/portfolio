@@ -1,5 +1,5 @@
-export default function Footer() {
-
+export default function Project() {
+    // logica para cargar x projecto y boton volver a vista works
     return (
         <>
             <nav className="redes mt-14 mb-5">
@@ -7,11 +7,6 @@ export default function Footer() {
                     <li>
                         <a href="https://github.com/adriansanchezlarrondo" target={'_blank'} rel="noreferrer">
                             <i className="fa-brands fa-github duration-200 delay-100 ease-in-out hover:scale-105 transition-transform  hover:text-teal-400"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/adri%C3%A1n-s%C3%A1nchez-larrondo-20106a258/" target={'_blank'} rel="noreferrer">
-                            <i className="fa-brands fa-linkedin-in duration-200 delay-100 ease-in-out hover:scale-105 transition-transform  hover:text-teal-400 "></i>
                         </a>
                     </li>
                     <li>
