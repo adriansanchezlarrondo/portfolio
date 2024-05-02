@@ -5,7 +5,6 @@ import Home from "./views/Home";
 import Works from "./views/Works";
 import Contact from "./views/Contact";
 import Skills from "./views/Skills";
-import Project from "./components/Project";
 
 export default function App() {
   return (
@@ -16,7 +15,6 @@ export default function App() {
         <Route path="/skills" element={<Skills />}></Route>
         <Route path="/works" element={<Works />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
-        <Route path="/project/:id" element={<Project />}></Route>
       </Routes>
       <Footer />
     </>
