@@ -18,10 +18,10 @@ export default function Works() {
                         </a>
                     </div>
                     <div className="rounded-full shadow-xl shadow-green-300 md:shadow-none hover:scale-105 transition-transform duration-300 ease-in-out">
-                        <a href="https://tetris-eqvv.onrender.com/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://memory-0dxa.onrender.com" target="_blank" rel="noopener noreferrer">
                             <div className="p-2 flex items-center w-[450px] md:flex md:flex-col md:items-center md:w-[300px] ">
-                                <img src="./src/assets/tetris.png" alt="proyecto" className="p-2 w-[180px] md:w-[250px] shadow-xl md:shadow-2xl rounded-full" />
-                                <p className="text-center text-xl font-semibold w-full md:text-2xl md:mt-4">Tetris</p>
+                                <img src="./src/assets/memory.png" alt="proyecto" className="p-2 w-[180px] h-[172px] md:w-[250px] md:h-[240px] shadow-xl md:shadow-2xl rounded-full" />
+                                <p className="text-center text-xl font-semibold w-full md:text-2xl md:mt-4">Memory</p>
                             </div>
                         </a>
                     </div>
@@ -34,10 +34,10 @@ export default function Works() {
                         </a>
                     </div>
                     <div className="rounded-full shadow-xl shadow-green-300 md:shadow-none hover:scale-105 transition-transform duration-300 ease-in-out">
-                        <a href="https://memory-0dxa.onrender.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://tetris-eqvv.onrender.com/" target="_blank" rel="noopener noreferrer">
                             <div className="p-2 flex items-center w-[450px] md:flex md:flex-col md:items-center md:w-[300px] ">
-                                <img src="./src/assets/memory.png" alt="proyecto" className="p-2 w-[180px] h-[172px] md:w-[250px] md:h-[240px] shadow-xl md:shadow-2xl rounded-full" />
-                                <p className="text-center text-xl font-semibold w-full md:text-2xl md:mt-4">Memory</p>
+                                <img src="./src/assets/tetris.png" alt="proyecto" className="p-2 w-[180px] md:w-[250px] shadow-xl md:shadow-2xl rounded-full" />
+                                <p className="text-center text-xl font-semibold w-full md:text-2xl md:mt-4">Tetris</p>
                             </div>
                         </a>
                     </div>

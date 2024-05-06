@@ -14,11 +14,11 @@ export default function Footer() {
                             <i className="fa-brands fa-linkedin-in duration-200 delay-100 ease-in-out hover:scale-105 transition-transform  hover:text-teal-400 "></i>
                         </a>
                     </li>
-                    <li>
+                    {/* <li>
                         <a href="https://www.instagram.com/adriisl__/" target={'_blank'} rel="noreferrer">
                             <i className="fa-brands fa-instagram duration-200 delay-100 ease-in-out hover:scale-105 transition-transform  hover:text-teal-400"></i>
                         </a>
-                    </li>
+                    </li> */}
                 </ul>
             </nav>
         </>
