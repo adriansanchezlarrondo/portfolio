@@ -19,7 +19,7 @@ export default function Volver() {
     return (
         <div className="mx-5 md:mx-3 rounded-md overflow-hidden hover:scale-105 transition-transform duration-300 ease-in-out">
             <Link to="/" className="flex" onMouseEnter={handleHover} onMouseLeave={handleHover}>
-                <img src={hovered ? "../src/assets/volver2.svg" : "../src/assets/volver.svg"} alt="icon-volver" className="w-5 mx-2" />
+                <img src={hovered ? "/volver2.svg" : "/volver.svg"} alt="icon-volver" className="w-5 mx-2" />
                 <span className="uppercase font-bold text-xl">Home</span>
             </Link>
         </div>
